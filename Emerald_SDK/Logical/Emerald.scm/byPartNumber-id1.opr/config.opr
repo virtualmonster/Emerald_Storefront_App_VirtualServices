@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1736527060325"
+    createdUser="STUART.WALKER" id="35db2f49:194507cf7a2:-64a5"
+    type="operation_resource" updatedTimestamp="1736527060325"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="167,250,230"
+        dependencies="c28e34b:193cf632438:-7ec5"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="c28e34b:193cf632438:-7ec5"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="c28e34b:193cf632438:-7ec5" maxTime="0"
+        mepEndSchemaID="JSON"
+        mepEndSchemaNodeFormatter="JSON.nodeformatter"
+        mepEndSchemaroot="Object" mepEndUsed="true"
+        mepStartSchemaID="15ae253c:1944ade1f4f:-39d9"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="byPartNumber-id1" mepType="IN_OUT"
+        minTime="0" stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="c28e34b:193cf632438:-7ec5">
+        <invokeHeaderNode meTy="Message" name="" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/wcs/resources/store/11/inventoryavailability/byPartNumber/LR-FNTR-0002-0001?sellerId=7000000000000003501&amp;langId=-1" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction
+                            exp="/wcs/resources/store/11/inventoryavailability/byPartNumber/{id}?sellerId={sellerId}&amp;langId={langId}" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="1.1" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="1.1" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c meTy="String" name="referer" type="7"
+                        value="http://10.0.2.15:3001/Emerald/flared-accent-chair-lr-fntr-0002" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction
+                                    exp="http://10.0.2.15:3001/Emerald/flared-accent-chair-lr-fntr-0002" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+            </_c>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/wcs/resources/store/11/inventoryavailability/byPartNumber/"
+                consumerType="Participate" filterHeaders="true"
+                filterMethod="true" filterResourcePath="true" requireSubPath="true">
+                <filterHeadersList>
+                    <header disabled="true" name="referer" type="7" value="http://10.0.2.15:3001/Emerald/flared-accent-chair-lr-fntr-0002"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

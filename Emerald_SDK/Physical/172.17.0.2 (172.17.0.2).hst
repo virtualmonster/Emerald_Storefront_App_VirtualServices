@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1734352188287"
+    createdUser="STUART.WALKER" id="c28e34b:193cf632438:-7c07"
+    selfDescribing="172.17.0.2 (172.17.0.2)"
+    type="host_machine_resource" updatedTimestamp="1734352188287"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="172.17.0.2" user_host_name="172.17.0.2">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>
